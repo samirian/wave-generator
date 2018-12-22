@@ -17,7 +17,6 @@ int main(void)
     /* Replace with your application code */
 	DDRB = 0xff;
 	uart_init();
-	generator_init();
 	uart_transmit('a');
     while (1) 
     {
